@@ -1,0 +1,60 @@
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+backend/.venv/
+venv/
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Type checking
+.mypy_cache/
+
+# Linting
+.ruff_cache/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+.tmp/
+logs/
+*.log
+
+# Docker volumes
+pgdata/
+
+# Build artifacts
+*.tar.gz
+*.zip
